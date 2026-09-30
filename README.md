@@ -3,8 +3,8 @@
 ```
 base62.go
 ```
-Check the Go test suite next to the implementation for concrete usage examples.
+Run the Go Base62 test next to the implementation for concrete examples.
 
-We use this to compress large integer IDs into short Base62 strings for URL parameters and OTP tracking. It helps keep our SMS payloads under the character limit when passing state. You decode them back without losing precision.
+Encode integers to short Base62 ids and back — dependency-free.
 
-The implementation relies entirely on the Go standard library. You do not need to install external packages or run a separate service to get it working.
+Go Base62 uses only the go standard library; there is no service or dependency to install.
